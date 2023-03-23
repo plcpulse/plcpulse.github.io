@@ -753,37 +753,25 @@ sctl.to(".cd-header", {
     ease: "Power4.easeInOut"
 });
 ScrollTrigger.create({
-    trigger: ".demo-class",
+    trigger: ".dc1",
     start: "top 100%",
     end: "+=500",
     scroller: ".scrollContainer",
     animation: sctl,
     scrub: true
 });
-let exbttl = gsap.timeline({
-    defaults: {
-        duration: 1
-    }
-});
-exbttl.fromTo(".content", {
-    y: 0,
-    opacity: 1,
-    duration: 3
-}, {
-    y: -130,
-    opacity: 1,
-    ease: "Power1.easeIn"
-});
-ScrollTrigger.create({
-    trigger: ".slider",
-    start: "100% 96%",
-    end: "+=500",
-    scroller: ".scrollContainer",
-    animation: exbttl,
-    // scrub: true, //tenterback
-    // events: onEnter onLeave onEnterBack onLeaveBack
-    toggleActions: "restart play reverse reverse"
-});
+// let exbttl = gsap.timeline({ defaults: { duration: 1 } })
+// exbttl.fromTo(".content", { y: 0, opacity: 1, duration: 3 }, { y: -130, opacity: 1, ease: "Power1.easeIn"})
+// ScrollTrigger.create({
+// 	trigger: '.slider',
+// 	start: "100% 96%",
+// 	end: "+=500",
+// 	scroller: ".scrollContainer",
+// 	animation: exbttl,
+// 	// scrub: true, //tenterback
+// 	// events: onEnter onLeave onEnterBack onLeaveBack
+// 	toggleActions: "restart play reverse reverse"
+// });
 // animation ends
 // b
 var letter1 = document.querySelector('[data-js="letter-1"]');
