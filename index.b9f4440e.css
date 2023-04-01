@@ -1,0 +1,265 @@
+.mat-cell, .mat-footer-cell, .mat-grid-tile-footer, .mat-grid-tile-header {
+  font-size: 14px;
+}
+
+.mat-grid-tile-footer .mat-line, .mat-grid-tile-header .mat-line {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+}
+
+.mat-grid-tile-footer .mat-line:nth-child(n+2), .mat-grid-tile-header .mat-line:nth-child(n+2) {
+  font-size: 12px;
+}
+
+.mat-table-sticky, .mat-table tbody, .mat-table tfoot, .mat-table thead, [mat-footer-row], [mat-header-row], [mat-row], mat-footer-row, mat-header-row, mat-row {
+  background: inherit;
+}
+
+mat-footer-row, mat-header-row, mat-row, td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
+  border-bottom-color: #0000001f;
+}
+
+.mat-cell, .mat-footer-cell {
+  color: #000000de;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, legend, main, nav, section {
+  display: block;
+}
+
+.ant-picker-panel .ant-picker-footer {
+  border-top: 1px solid #f0f0f0;
+}
+
+.ant-picker-footer-extra:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-layout-footer {
+  color: #000000a6;
+  background: #f0f2f5;
+  font-size: 14px;
+}
+
+nz-content, nz-footer, nz-header {
+  display: block;
+}
+
+.ant-list-footer, .ant-list-header {
+  background: none;
+}
+
+.ant-list-bordered .ant-list-footer, .ant-list-bordered .ant-list-header, .ant-list-bordered .ant-list-item {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.ant-list-bordered.ant-list-sm .ant-list-footer, .ant-list-bordered.ant-list-sm .ant-list-header, .ant-list-bordered.ant-list-sm .ant-list-item {
+  padding: 8px 16px;
+}
+
+.ant-list-bordered.ant-list-lg .ant-list-footer, .ant-list-bordered.ant-list-lg .ant-list-header, .ant-list-bordered.ant-list-lg .ant-list-item {
+  padding: 16px 24px;
+}
+
+.ant-modal-footer {
+  background: none;
+  border-radius: 0 0 2px 2px;
+}
+
+.ant-table-footer, .ant-table-thead > tr > th {
+  color: #000000d9;
+  background: #fafafa;
+}
+
+.ant-table-footer, .ant-table-title {
+  padding: 16px;
+}
+
+.ant-table-footer, .ant-transfer-list-footer {
+  border-radius: 0 0 2px 2px;
+}
+
+.ant-transfer-rtl .ant-transfer-list-body-search-wrapper, .ant-transfer-rtl .ant-transfer-list-footer {
+  left: auto;
+  right: 0;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+.ant-picker-footer {
+  text-align: center;
+  border-bottom: 1px solid #0000;
+  line-height: 38px;
+}
+
+.ant-picker-panel .ant-picker-footer {
+  border-top: 1px solid #f6f6f6;
+}
+
+.ant-picker-footer-extra {
+  text-align: left;
+  padding: 0 12px;
+  line-height: 38px;
+}
+
+.ant-picker-footer-extra:not(:last-child) {
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.ant-drawer-footer {
+  border-top: 1px solid #f0f0f0;
+  flex-shrink: 0;
+  padding: 10px;
+}
+
+.ant-empty-footer {
+  margin-top: 16px;
+}
+
+.ant-layout-footer, .ant-layout-header {
+  flex: none;
+}
+
+.ant-layout-header {
+  height: 64px;
+  color: #594c53;
+  background: #fff;
+  padding: 0 24px;
+  line-height: 64px;
+}
+
+.ant-layout-footer {
+  color: #594c53;
+  background: #f6f6f6;
+  padding: 24px 50px;
+  font-size: 16px;
+}
+
+nz-content, nz-footer, nz-header {
+  display: block;
+}
+
+.ant-list-footer, .ant-list-header {
+  background: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.ant-list-split.ant-list-empty .ant-list-footer {
+  border-top: 1px solid #f0f0f0;
+}
+
+.ant-list-bordered .ant-list-footer, .ant-list-bordered .ant-list-header, .ant-list-bordered .ant-list-item {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.ant-list-bordered.ant-list-sm .ant-list-footer, .ant-list-bordered.ant-list-sm .ant-list-header, .ant-list-bordered.ant-list-sm .ant-list-item {
+  padding: 8px 16px;
+}
+
+.ant-list-bordered.ant-list-lg .ant-list-footer, .ant-list-bordered.ant-list-lg .ant-list-header, .ant-list-bordered.ant-list-lg .ant-list-item {
+  padding: 16px 0;
+}
+
+nz-list, nz-list-empty, nz-list-footer, nz-list-header, nz-list-item-extra, nz-list-pagination, nz-list nz-spin {
+  display: block;
+}
+
+.ant-modal-footer {
+  text-align: right;
+  background: none;
+  border-top: 1px solid #f0f0f0;
+  border-radius: 0 0 10px 10px;
+  padding: 10px 16px;
+}
+
+.ant-modal-footer button + button {
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.ant-modal-wrap-rtl .ant-modal-footer {
+  text-align: left;
+}
+
+.ant-modal-wrap-rtl .ant-modal-footer button + button {
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+.ant-page-header.has-footer {
+  padding-bottom: 0;
+}
+
+.ant-page-header-footer {
+  margin-top: 16px;
+}
+
+.ant-page-header-footer .ant-tabs-bar {
+  border-bottom: 0;
+  margin-bottom: 1px;
+}
+
+.ant-page-header-footer .ant-tabs-bar .ant-tabs-nav .ant-tabs-tab {
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.ant-page-header-rtl .ant-page-header-footer .ant-tabs-bar .ant-tabs-nav {
+  float: right;
+}
+
+nz-page-header, nz-page-header-content, nz-page-header-footer {
+  display: block;
+}
+
+.ant-table-middle .ant-table-footer, .ant-table-middle .ant-table-tbody > tr > td, .ant-table-middle .ant-table-thead > tr > th, .ant-table-middle .ant-table-title {
+  padding: 12px 8px;
+}
+
+.ant-table-small .ant-table-footer, .ant-table-small .ant-table-tbody > tr > td, .ant-table-small .ant-table-thead > tr > th, .ant-table-small .ant-table-title {
+  padding: 8px;
+}
+
+.ant-table.ant-table-bordered .ant-table-footer {
+  border: 1px solid #f0f0f0;
+  border-top: 0;
+}
+
+.ant-table-footer {
+  color: #594c53;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 16px;
+}
+
+nz-table, nz-table-inner-default, nz-table-inner-scroll, nz-table-selection, nz-table-title-footer {
+  display: block;
+}
+
+.ant-transfer-list-with-footer {
+  padding-bottom: 34px;
+}
+
+.ant-transfer-list-footer {
+  width: 100%;
+  border-top: 1px solid #f0f0f0;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ant-transfer-rtl .ant-transfer-list-footer {
+  left: auto;
+  right: 0;
+}
+
+/*# sourceMappingURL=index.b9f4440e.css.map */
